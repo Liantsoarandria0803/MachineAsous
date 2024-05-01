@@ -1,0 +1,118 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(198, 211, 209, 0.507);
+  }
+  .randria{
+      color: #ffffff;
+      text-align:center;
+  }
+  .jeu{
+      color: #ffffff;
+      text-align:center;
+    font-size: 100%;
+  }
+  .head {
+      border-block-style: inset;
+      border-block-start-style: inset;
+      border-block-end-style: inset;
+      background-color: #173b9ee7;
+     border-radius: 130px;
+     box-shadow: 0 2px 12px 0 rgba(31, 30, 30, 0.877);
+  }
+  .c4{
+    width:22vw;
+  }
+  .sary{
+	text-align: center;
+}
+
+.form{
+    margin-top: 3%;
+    margin:12%;
+text-align: center;
+ background-color:  rgb(152, 241, 230);
+ border-radius: 7%;
+ width: 67vw;
+ height:56vh;
+ background-color: rgba(255, 255, 255, 0.342);
+ border-top-left-radius:23px ;
+ border-top-right-radius: 23px;
+ border-bottom-left-radius:2cqh ;
+ border-bottom-right-radius:150px ;
+ position: relative;
+ justify-content: center;
+ align-items: center;
+ padding: 3%;
+ box-shadow: 0 2px 12px 0 rgba(31, 30, 30, 0.877);
+}
+.sousform{
+   height:33vh;
+   margin-top: 3%;
+}
+input{
+    font-weight: bold;
+    border-style: none;
+    border-radius: 50px;
+    width: 23vw;
+    height:8vh;
+    text-align: center;
+    font-size: larger;
+    box-shadow: 0 1px 3px 0 rgba(31, 30, 30, 0.877);
+}
+.form button{
+    border-style: none;
+    width: 100px;
+    height: 34px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 34px;
+}
+.form button:hover{
+    border-style: none;
+    width: 130px;
+    height: 44px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 34px;
+    background-color: #173b9e;
+    color:#ffffff;
+}
+#result{
+    font-weight: bold;
+    border-style: none;
+    border-radius: 50px;
+    width: 23vw;
+    height:8vh;
+    text-align: center;
+    font-size: medium;
+}
+@media only screen and (max-width: 486px){
+    .form{
+        margin-top: 3%;
+        margin:12%;
+    text-align: center;
+     background-color:  rgb(152, 241, 230);
+     border-radius: 7%;
+     width: 67vw;
+     height:56vh;
+     background-color: rgba(255, 255, 255, 0.342);
+     border-top-left-radius:23px ;
+     border-top-right-radius: 23px;
+     border-bottom-left-radius:2cqh ;
+     border-bottom-right-radius:100px ;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+     padding: 3%;
+     box-shadow: 0 2px 12px 0 rgba(31, 30, 30, 0.877);
+    }
+    #result{
+        font-weight: bold;
+        border-style: none;
+        border-radius: 50px;
+        width: 23vw;
+        height:8vh;
+        text-align: center;
+        font-size: small;
+    }
+}
