@@ -30,6 +30,29 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant: small-caps;
 }
+h3{
+    color: #173b9e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+.tete{
+    display: flex;
+    flex-direction: row;
+}
+table{
+    border-color: #173b9e;
+    color: #330ed477;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 60vw;
+    border-radius: 23px;
+    padding: 1%;
+    box-shadow: 0 2px 12px 0 rgba(31, 30, 30, 0.877);
+}
+.score{
+    padding-left: 12vw;
+    width:30vw;
+}
 .form{
     margin-top: 3%;
     margin:12%;
@@ -37,7 +60,7 @@ text-align: center;
  background-color:  rgb(152, 241, 230);
  border-radius: 7%;
  width: 67vw;
- height:56vh;
+ height:max-content;
  background-color: rgba(255, 255, 255, 0.342);
  border-top-left-radius:23px ;
  border-top-right-radius: 23px;
@@ -53,7 +76,7 @@ text-align: center;
    height:33vh;
    margin-top: 3%;
 }
-input{
+ input{
     font-weight: bold;
     border-style: none;
     border-radius: 50px;
@@ -94,11 +117,11 @@ input{
     .form{
         margin-top: 3%;
         margin:12%;
-    text-align: center;
+        text-align: center;
      background-color:  rgb(152, 241, 230);
      border-radius: 7%;
      width: 67vw;
-     height:56vh;
+     height:max-content;
      background-color: rgba(255, 255, 255, 0.342);
      border-top-left-radius:23px ;
      border-top-right-radius: 23px;
